@@ -53,14 +53,14 @@ legend_string(find(~legend_flag))=[];
 ftsz=16;
 %%
 %Path to save files (select your own)
-my_path='/home/amjed/Documents/Gproject/workspace/data/WSDB_DATA';
+my_path='/Users/amjed/Desktop/google_number_of_antenna_delay_correlation/data';
 %%
 %Global Google parameters (refer to https://developers.google.com/spectrum/v1/paws/getSpectrum)
 type='"AVAIL_SPECTRUM_REQ"';
 height='30.0'; %In meters; Note: 'height' needs decimal value
 agl='"AMSL"';
 
-no_queries=10; %Select how many queries per location
+no_queries=20; %Select how many queries per location
 
 %Location data
 WSDB_data{1}.name='VI-25'; %victorville
@@ -175,4 +175,5 @@ max_el=max([delay_google_vector(1:end)]);
     set(txt,'VerticalAlignment','Top');
 
 %%
+save('number-of-antenna-delay-correlation');
 ['Elapsed time: ',num2str(toc/60),' min']

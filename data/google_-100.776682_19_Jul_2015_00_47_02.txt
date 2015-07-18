@@ -1,0 +1,129 @@
+{
+ "jsonrpc": "2.0",
+ "id": "any_string",
+ "result": {
+  "kind": "spectrum#pawsGetSpectrumResponse",
+  "type": "AVAIL_SPECTRUM_RESP",
+  "version": "1.0",
+  "timestamp": "2015-07-18T22:47:02Z",
+  "deviceDesc": {
+   "serialNumber": "your_serial_number",
+   "fccId": "TEST",
+   "fccTvbdDeviceType": "MODE_2"
+  },
+  "spectrumSchedules": [
+   {
+    "eventTime": {
+     "startTime": "2015-07-18T22:47:02Z",
+     "stopTime": "2015-07-20T22:47:02Z"
+    },
+    "spectra": [
+     {
+      "bandwidth": 6000000.0,
+      "frequencyRanges": [
+       {
+        "startHz": 5.4E7,
+        "stopHz": 5.12E8,
+        "maxPowerDBm": -52.799999947335436
+       },
+       {
+        "startHz": 5.12E8,
+        "stopHz": 5.3E8,
+        "maxPowerDBm": 19.99999928972511
+       },
+       {
+        "startHz": 5.3E8,
+        "stopHz": 5.36E8,
+        "maxPowerDBm": 15.99999928972511
+       },
+       {
+        "startHz": 5.36E8,
+        "stopHz": 5.42E8,
+        "maxPowerDBm": -52.799999947335436
+       },
+       {
+        "startHz": 5.42E8,
+        "stopHz": 5.48E8,
+        "maxPowerDBm": 15.99999928972511
+       },
+       {
+        "startHz": 5.48E8,
+        "stopHz": 5.54E8,
+        "maxPowerDBm": -52.799999947335436
+       },
+       {
+        "startHz": 5.54E8,
+        "stopHz": 5.66E8,
+        "maxPowerDBm": 15.99999928972511
+       },
+       {
+        "startHz": 5.66E8,
+        "stopHz": 5.72E8,
+        "maxPowerDBm": -52.799999947335436
+       },
+       {
+        "startHz": 5.72E8,
+        "stopHz": 5.84E8,
+        "maxPowerDBm": 15.99999928972511
+       },
+       {
+        "startHz": 5.84E8,
+        "stopHz": 5.9E8,
+        "maxPowerDBm": -52.799999947335436
+       },
+       {
+        "startHz": 5.9E8,
+        "stopHz": 5.96E8,
+        "maxPowerDBm": 15.99999928972511
+       },
+       {
+        "startHz": 5.96E8,
+        "stopHz": 6.02E8,
+        "maxPowerDBm": 19.99999928972511
+       },
+       {
+        "startHz": 6.02E8,
+        "stopHz": 6.2E8,
+        "maxPowerDBm": -52.799999947335436
+       },
+       {
+        "startHz": 6.2E8,
+        "stopHz": 6.74E8,
+        "maxPowerDBm": 19.99999928972511
+       },
+       {
+        "startHz": 6.74E8,
+        "stopHz": 6.8E8,
+        "maxPowerDBm": 15.99999928972511
+       },
+       {
+        "startHz": 6.8E8,
+        "stopHz": 6.86E8,
+        "maxPowerDBm": -52.799999947335436
+       },
+       {
+        "startHz": 6.86E8,
+        "stopHz": 6.92E8,
+        "maxPowerDBm": 15.99999928972511
+       },
+       {
+        "startHz": 6.92E8,
+        "stopHz": 6.98E8,
+        "maxPowerDBm": 19.99999928972511
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "needsSpectrumReport": false,
+  "rulesetInfo": {
+   "authority": "US",
+   "maxLocationChange": 100.0,
+   "maxPollingSecs": 86400,
+   "rulesetIds": [
+    "FccTvBandWhiteSpace-2010"
+   ]
+  }
+ }
+}
